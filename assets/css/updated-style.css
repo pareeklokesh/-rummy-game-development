@@ -72,6 +72,10 @@ header .TrialBox .TrialBoxWrapper input::placeholder {
 .chatwith-btn-mb {
 	display: none;
 }
+.header-stickey.sticky .logo.logo-normal {
+  display: block;
+}
+
 
 @media (min-width: 992px) {
 	.headerButtonChatExpert a.chat-icon {
@@ -150,6 +154,9 @@ header .TrialBox {
 }
 .chatwith-btn-mb {
 	display: block !important;
+}
+.header-stickey.sticky {
+  background: rgba(0,0,0,0.4) !important;
 }
 
 }
