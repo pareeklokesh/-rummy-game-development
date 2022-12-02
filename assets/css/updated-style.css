@@ -78,6 +78,13 @@ header .TrialBox .TrialBoxWrapper input::placeholder {
 .chat-icon-ntn {
 	position: relative;
 }
+
+
+
+@media (min-width: 992px) {
+	.headerButtonChatExpert a.chat-icon {
+  font-size: 21px;
+}
 .chat-num {
 	color: #fff;
 background: #2aa81a;
@@ -127,11 +134,6 @@ height: auto;position: relative;
   left: 3px;
 }
 
-
-@media (min-width: 992px) {
-	.headerButtonChatExpert a.chat-icon {
-  font-size: 21px;
-}
 }
 
 
@@ -208,6 +210,10 @@ header .TrialBox {
 }
 .header-stickey.sticky {
   background: rgba(0,0,0,0.4) !important;
+}
+#header-menu li .headerButtonChatExpert a.chat-icon.chat-icon-ntn {
+  background: #2aa81a;
+  border-color: #001526 !important;
 }
 
 }
