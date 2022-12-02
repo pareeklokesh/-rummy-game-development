@@ -41,6 +41,27 @@ display: none;
   align-items: center;
   justify-content: end;
 }
+.headerButtonChatExpert a {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+.chatwith-btn {
+  background-color: #FFF;
+  color: #de730b !important;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #2b2b2b;
+  border-radius: 50px;
+}
+
+@media (min-width: 992px) {
+	.headerButtonChatExpert a.chat-icon {
+  font-size: 21px;
+}
+}
 
 
 @media (max-width: 767px) {
@@ -61,6 +82,15 @@ display: inline-block;
   height: 40px;
   padding: 0 !important;
   border-radius: 50%;
+}
+.headerButtonChatExpert a.chat-icon img {
+	width: 100%;
+}
+#header-menu li:nth-child(2) .headerButtonChatExpert a.chat-icon {
+	border-color: #fff !important;
+}
+#header-menu li:nth-child(1) .headerButtonChatExpert {
+	margin-left: 0 !important;
 }
 
 }
