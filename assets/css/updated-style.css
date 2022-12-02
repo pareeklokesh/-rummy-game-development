@@ -56,6 +56,19 @@ display: none;
   border: 2px solid #2b2b2b;
   border-radius: 50px;
 }
+header .TrialBox .TrialBoxWrapper textarea {
+  display: block;
+  height: 70px;
+  border: 1px #7f7f7f solid;
+  margin: 0 0 10px;
+  padding: 0 0 0 3%;
+    padding-top: 0px;
+  width: 96% !important;
+  padding-top: 5px;
+}
+header .TrialBox .TrialBoxWrapper input::placeholder {
+	color: #747474 !important;opacity: 1;
+}
 
 @media (min-width: 992px) {
 	.headerButtonChatExpert a.chat-icon {
@@ -91,6 +104,41 @@ display: inline-block;
 }
 #header-menu li:nth-child(1) .headerButtonChatExpert {
 	margin-left: 0 !important;
+}
+.banner {
+  padding-top: 0 !important;
+}
+header .TrialBox .TrialBoxWrapper input, header .TrialBox .TrialBoxWrapper textarea {
+	font-size: 12px !important;
+}
+.header-stickey {
+  position: fixed;
+  width: 100%;
+  left: 0;
+}
+.HeaderTop nav {
+  margin: 0;
+}
+.HeaderTop {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+.HeaderTop .logo.logo-normal {
+  margin-top: 14px;
+}
+.banner {
+  padding-top: 70px !important;
+}
+.col-inner h2 {
+  font-size: 20px !important;
+  line-height: normal !important;
+}
+.wrapper1 .box2 img {
+  width: 100%;
+}
+.tittle {
+  font-size: 22px !important;
 }
 
 }
