@@ -98,8 +98,8 @@ li.callbtn {
 display: inline-block;
 }
 #header-menu li a {
-  width: 40px !important;
-  height: 40px;
+  width: 30px !important;
+  height: 30px;
   padding: 0 !important;
   border-radius: 50%;
 }
@@ -131,7 +131,7 @@ header .TrialBox .TrialBoxWrapper input, header .TrialBox .TrialBoxWrapper texta
   padding-top: 5px !important;
 }
 .HeaderTop .logo.logo-normal {
-  margin-top: 14px;
+  margin-top: 0px;
 }
 .banner {
   padding-top: 70px !important;
