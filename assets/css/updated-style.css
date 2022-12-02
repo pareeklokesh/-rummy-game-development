@@ -130,7 +130,7 @@ header .TrialBox .TrialBoxWrapper input, header .TrialBox .TrialBoxWrapper texta
 .banner {
   padding-top: 70px !important;
 }
-.col-inner h2 {
+.col-inner h2, header .BannerLeft h1 {
   font-size: 20px !important;
   line-height: normal !important;
 }
@@ -139,6 +139,9 @@ header .TrialBox .TrialBoxWrapper input, header .TrialBox .TrialBoxWrapper texta
 }
 .tittle {
   font-size: 22px !important;
+}
+header .TrialBox {
+  margin-top: 8px;
 }
 
 }
