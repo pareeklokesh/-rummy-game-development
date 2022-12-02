@@ -189,6 +189,9 @@ position: revert;
   background: #eab12d !important;
   color: #000 !important;
 }
+.secured-tabs ul li button.active img, .secured-tabs ul li button:hover img {
+  filter: saturate(0) contrast(4);
+}
 .contact-form input, .contact-form textarea {
   width: 100%;
 }
@@ -380,7 +383,7 @@ transition: all .4s linear;
   margin-bottom: 15px;
 }
 .page {
-  padding-top: 130px;
+  padding-top: 0px;
 }
 .sub_head {
   font-family: 'Open Sans', sans-serif;
@@ -450,3 +453,87 @@ justify-content: center;
   background: #eab12d;
   color: #000;
 }
+.navbar.navbar-expand-lg.fixed-top.navbar-main {
+  position: static;padding: 0;
+}
+.navbar.navbar-expand-lg.fixed-top.navbar-main.scrolled {
+  position: fixed;
+}
+.page .container-fluid {
+  padding-top: 60px;
+}
+.navbar-toggler-mobile span {
+  height: 1px;
+  background: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.navbar-toggler-mobile {
+  padding: 0;
+  width: 30px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.howtoplay-btn {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.howtoplay-btn li a {
+  background: transparent;
+  padding: 8px 35px;
+  color: #141414;
+  margin-right: 10px;
+  border-radius: 43px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  border: 1px solid #ebb22e;
+  color: #fff;
+  transition: all .4s linear;
+  position: relative;
+  z-index: 1;
+}
+.howtoplay-btn li a::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ebb22e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all .4s linear;
+  z-index: -1;
+  opacity: 0;
+  transform: scale(0);
+}
+.howtoplay-btn li a:hover::before {
+  width: 100%;opacity: 1;transform: scale(1);
+  border-radius: 16px;
+}
+.howtoplay-btn li a:hover {
+  color: #141414;
+}
+
+
+
+@media (max-width: 767px) {
+  .howtoplay .col-md-4 {
+  margin-bottom: 40px;
+}
+.sec-foot {
+  padding: 0;
+}
+.col-lg-3.col-md-6.footer-links:nth-child(3) {
+  margin-top: 0 !important;
+}
+.col-lg-2.col-md-6.footer-links ul {
+  margin-bottom: 10px;
+}
+.page .contact-form {
+  margin-bottom: 30px;
+}
+
+
+}
+
