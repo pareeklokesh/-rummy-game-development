@@ -75,6 +75,57 @@ header .TrialBox .TrialBoxWrapper input::placeholder {
 .header-stickey.sticky .logo.logo-normal {
   display: block;
 }
+.chat-icon-ntn {
+	position: relative;
+}
+.chat-num {
+	color: #fff;
+background: #2aa81a;
+height: 40px;
+display: flex;
+align-items: center;
+padding: 2px 15px;
+margin-top: 0;
+border: 2px solid #052b00;
+border-radius: 0 25px 25px 0;
+z-index: 9;
+border-left: 0;
+margin-left: 14px;
+font-size: 18px;
+letter-spacing: 1px;
+}
+.whatsapp-chat {
+  background: #2aa81a;
+width: 55px;
+position: absolute;
+left: -31px;
+top: -5px;
+border-radius: 50%;
+height: 55px;
+border: 2px solid #052b00;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.whatsapp-chat img {
+  position: relative;
+  left: 6px;
+}
+.headerButtonChatExpert a.chat-icon-ntn {
+	border: 0 !important;
+background: transparent !important;
+padding: 0 !important;
+padding: 0 !important;
+height: auto;position: relative;
+}
+.chat-exp .whatsapp-chat, .chat-exp .chat-num {
+  background: #06c;
+}
+.whatsapp-chat img {
+  width: 28px !important;
+  position: relative;
+  left: 3px;
+}
 
 
 @media (min-width: 992px) {
